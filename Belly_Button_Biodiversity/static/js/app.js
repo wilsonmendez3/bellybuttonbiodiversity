@@ -39,7 +39,7 @@ function buildCharts(sample) {
     var layout = {
       showlegend: false,
       height: 600,
-      width: 800,
+      width: "100%",
       xaxis: {title: "OTU ID"},
       yaxis: {title: "Sample"},
       title: "Belly Button Biodiversity"
